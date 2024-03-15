@@ -6,7 +6,8 @@ if type(a) or type(b) != float:
 else:
     pass
 
-op = input('Operation :')
+op1 = input('Operation :')
+op = op1.lower()
 
 match op :
     case 'add' :
